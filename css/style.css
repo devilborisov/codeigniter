@@ -1,0 +1,158 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: "Courier New";
+	line-height: 1;
+}
+a{
+    text-decoration: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+body {
+
+}
+.wrapper {
+    background-color: #CCCCCC;
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 100px;
+    background-image: url("/css/images/raznoe69.jpg");
+    color: #ffffff;
+}
+.header a{
+    color: oldlace;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: auto;
+	float: left;
+	overflow: hidden;
+}
+.content {
+    text-indent: 20px;
+    min-height: 500px;
+    width: 760px;
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+	padding: 10px 20px 10px 20px;
+    background-color: snow;
+    -webkit-box-shadow: 0px 3px 26px 0px rgba(94, 78, 64, 0.86);
+    -moz-box-shadow:    0px 3px 26px 0px rgba(94, 78, 64, 0.86);
+    box-shadow:         0px 3px 26px 0px rgba(94, 78, 64, 0.86);
+}
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+    padding-left: 20px;
+    padding-top: 20px;
+	float: left;
+	width: 200px;
+	margin-left: -100%;
+	position: relative;
+}
+
+.left{
+    padding: 0 0 0 20px;
+}
+.right-sidebar {
+    float: right;
+    width: 275px;
+    margin-left: -100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    border: 1px solid #0000FF;
+
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -100px auto 0;
+	min-width: 1000px;
+	height: 100px;
+	background-image: url("/css/images/background-footer.gif");
+	position: relative;
+}
+.linker{
+    font-size: 20px;
+    font-family: cursive;
+    color: #480091;
+    text-shadow: 4px 3px 4px rgba(126, 136, 177, 1);
+}
+.text p{
+    font-family:"Courier New"
+}
+#full-cont{
+    text-align: center;
+    color: #00620C;
+    font-family:fantasy;
+    font-size: 20px;
+}
+#full-cont2{
+    font-family: "Courier New";
+}
